@@ -1,8 +1,3 @@
-#include <RF24.h>
-#include <RF24_config.h>
-#include <nRF24L01.h>
-#include <Servo.h>
-
 /* vim: set ts=2 sw=2 sts=2 et! : */
 //
 // BoilerMake Fall 2014 Badge Code
@@ -30,6 +25,8 @@
 #include <RF24.h>
 #include <SPI.h>
 #include <EEPROM.h>
+
+#include <Servo.h>
 
 Servo thumb;
 Servo pointer;
